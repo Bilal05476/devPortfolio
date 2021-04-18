@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Bilal Ahmed || Portfolio</title>
+  </head>
+
+  <body>
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      data-aos="zoom-in"
+    >
+      <i class="fa fa-angle-up"></i>
+    </button>
+
+    <!--Navigation-->
+    <nav
+      class="navbar navbar-expand-md navbar-dark fixed-top"
+      id="navbar"
+      data-aos="zoom-in"
+    >
+      <div class="container">
+        <a class="navbar-brand" id="logo" href="#"> < BILAL AHMED /> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="line line__1"></div>
+          <div class="line line__2"></div>
+          <div class="line line__3"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a
+          class="btn btn-outline-light header__btn d-none d-md-block"
+          id="started"
+          href="#hireMe"
+        >
+          HIRE ME
+        </a>
+      </div>
+    </nav>
+
+    <div data-spy="scroll" data-target="#navbarNavDropdown" data-offset="0">
+      <!--HomeDiv-->
+      <section id="home">
+        <div class="divOne">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 divOneText text-center" data-aos="fade-in">
+                <a class="small__logo text-center"> < BILAL AHMED /> </a>
+                <h1 class="caption">Better Solution For Your<br />Business</h1>
+                <br />
+                <p>
+                  Welcome, I am
+                  <strong>Front End React Developer.</strong> Using tools /
+                  technologies like ReactJs, Redux, Hooks, Firebase, Html,
+                  CSS,<br />
+                  Bootstrap, and Material Ui. I am in this field for 1 year now
+                  with some real world project experience.
+                </p>
+
+                <div class="social__icons">
+                  <a href="mailto:bilalahmed6551@gmail.com" target="blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/bilal_ahmed_05/"
+                    target="blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100007545697355"
+                    target="blank"
+                    ><i class="fa fa-facebook-square"></i
+                  ></a>
+                  <a href="https://github.com/Bilal05476" target="blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
+                    target="blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://www.pinterest.com/bilalahmed6551/"
+                    target="blank"
+                  >
+                    <i class="fa fa-pinterest"></i
+                  ></a>
+                </div>
+                <a
+                  class="btn btn-outline-light divOneBtn1"
+                  href="#hireMe"
+                  id="started2"
+                >
+                  HIRE ME
+                </a>
+                <a class="btn btn-outline-light divOneBtn1 mx-2">
+                  SEE MY RESUME
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ProjectDiv-->
+      <div class="twoDiv" data-aos="fade-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 project__heading">
+              <h2><strong>Quick Projects</strong></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4 project">
+              <a
+                href="https://amazonclone-clone.surge.sh/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Amazon Clone With ReactJs and Firebase! Functionalities: Google Auth and Ecommerce"
+              >
+                <img
+                  class="proImage"
+                  src="img/amazonClone.png"
+                  alt="Amazon Clone"
+                />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 project">
+              <a
+                id="project2"
+                href="https://netflixclone-clone.surge.sh/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Netflix Clone With ReactJs and Firebase! Functionalities: Fetch Data from API"
+              >
+                <img
+                  class="proImage"
+                  src="img/netflixClone.png"
+                  alt="Netflix Clone"
+                />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 project">
+              <a
+                href="http://trackerproject.surge.sh/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Corona Tracker With ReactJs! Functionalities: Fetch Corona Data from API"
+              >
+                <img
+                  class="proImage"
+                  src="img/coronaTracker.png"
+                  alt="Corona Tracker"
+                />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 project">
+              <a
+                href="https://hotel-project.netlify.app/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Hotel Website With Pure Html, Css, and Media Queries!"
+              >
+                <img class="proImage" src="img/hotelWeb.png" alt="Hotel Web" />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 project">
+              <a
+                href="https://skillsme-81986.web.app/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Food Store With ReactJs and Firebase! Functionalities: Google Auth, Ecommerce and Fetch Data from Database(firstore)"
+              >
+                <img
+                  class="proImage"
+                  src="img/ecommWeb.png"
+                  alt="Ecommerce Store"
+                />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 project">
+              <a
+                href="https://mywhatsapp-clone-project.web.app/"
+                target="blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="WhatsApp Clone With ReactJs and Firebase! Functionalities: Google Auth and Fetch Data from Database(firstore)"
+              >
+                <img
+                  class="proImage"
+                  src="img/whatsAppClone.png"
+                  alt="WhatsApp Clone"
+                />
+              </a>
+              <div class="text-center py-3">
+                <i class="fa fa-github text-light proGithub"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--AboutDiv-->
+      <section id="about">
+        <div class="container-fluid bg-light" data-aos="fade">
+          <div class="container">
+            <div class="threeDiv">
+              <div class="" data-aos="fade-in">
+                <img class="homeImage header__img" src="img/icon.png" alt="" />
+              </div>
+              <div class="" data-aos="fade-up">
+                <h1 class="threeDivText">
+                  <strong>Front End React Developer</strong>
+                </h1>
+                <p class="threeDivPara">
+                  Using tools/technologies like ReactJs, Redux, Hooks, Firebase,
+                  Html, CSS, Bootstrap, and Material Ui. I am in this field for
+                  1 year now with some real world project experience.
+                </p>
+                <h3 class="threeDivText">
+                  <strong> Professional Customer Service </strong>
+                </h3>
+                <p class="threeDivPara">
+                  I support you every step of the way. If there is an issue, my
+                  customer service are ready to help you over email or a phone
+                  call. I value your business!
+                </p>
+                <h3 class="threeDivText">
+                  <strong> Commited to Quality </strong>
+                </h3>
+                <p class="threeDivPara">
+                  Quality should never be compromised. No matter what service
+                  you choose, you can feel confident that my services are of the
+                  highest caliber.
+                </p>
+                <h3 class="threeDivText">
+                  <strong> 100% Satisfaction Guaranteed </strong>
+                </h3>
+                <p class="threeDivPara">
+                  You should be completely happy with your experience. If you
+                  have any questions about me, my services, or even pricing, get
+                  in touch!
+                </p>
+                <div class="threeDivPara">
+                  <a
+                    class="btn btn-outline-light divOneBtn1"
+                    href="#hireMe"
+                    id="started2"
+                  >
+                    HIRE ME
+                  </a>
+                  <a class="btn btn-outline-light divOneBtn1 mx-3">
+                    SEE MY RESUME
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ServicesDiv-->
+      <section id="services">
+        <div class="container-fluid divSet bg-light" data-aos="fade">
+          <div class="container">
+            <div class="row servicesDiv">
+              <div class="col-md-4" style="padding: 0" data-aos="fade-in">
+                <img class="divOneImg" src="img/webdevelopment.png" alt="" />
+              </div>
+              <div class="col-md-8" data-aos="fade-up">
+                <div class="row work">
+                  <div class="col-md-6 work__profile">
+                    <h1><i class="fa fa-code"></i> Static Website</h1>
+                    <p>
+                      <strong>Static Website</strong> Consist of basic
+                      Functionalities like landing pages or blog pages. Static
+                      website purely develop on Html, Css, and Vanilla JS.!
+                    </p>
+                  </div>
+                  <div class="col-md-6 work__profile">
+                    <h1><i class="fa fa-code"></i> Custom Website</h1>
+                    <p>
+                      <strong>Custom Website</strong> Consist of basic
+                      Functionalities like landing pages or blog pages.
+                      Including with your own likable designs and
+                      functionalities.!
+                    </p>
+                  </div>
+                  <div class="col-md-6 work__profile">
+                    <h1>
+                      <i class="fa fa-code"></i> React Single Page Web App
+                    </h1>
+                    <p>
+                      <strong>React Single Page Website</strong> Consist of
+                      basic Functionalities like landing pages or blog pages.
+                      Including React Functionalities like Routers for 100 times
+                      better user experience.!
+                    </p>
+                  </div>
+                  <div class="col-md-6 work__profile">
+                    <h1>
+                      <i class="fa fa-code"></i> React Progressive Web App
+                    </h1>
+                    <p>
+                      <strong>React Progressive Website</strong> Consist of
+                      basic Functionalities like landing pages or blog pages.
+                      Including React Functionalities like Routers for 100 times
+                      better user experience and also provide offline website
+                      experience for user.!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Quotes-->
+      <section id="quotes">
+        <div class="container-fluid quotesDiv">
+          <div class="container">
+            <h4>
+              <i>
+                <q>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Expedita, veniam? Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nesciunt, autem.
+                </q>
+              </i>
+              <i>
+                <p>-- Bilal Ahmed</p>
+              </i>
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <!--SkillsDiv-->
+      <section id="skills">
+        <div class="container-fluid fourDiv" data-aos="fade">
+          <div class="container">
+            <div class="row skillsDiv">
+              <div class="col-md-4" data-aos="fade-in">
+                <img class="divOneImg" src="img/skills.svg" alt="" />
+              </div>
+              <div class="col-md-8 skills__progress" data-aos="fade-up">
+                <h1 class="fourDivText">
+                  My Skills as a<strong> Front End React Developer</strong>
+                </h1>
+                <p class="fourDivPara">
+                  Using tools/technologies like ReactJs, Redux, Hooks, Firebase,
+                  Html, CSS, Bootstrap, and Material Ui. I am in this field for
+                  1 year now with some real world project experience.
+                </p>
+
+                <h6>JavaScript</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    85%
+                  </div>
+                </div>
+                <h6>ReactJS</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    80%
+                  </div>
+                </div>
+                <h6>NodeJs</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    65%
+                  </div>
+                </div>
+                <h6>Strapi</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    85%
+                  </div>
+                </div>
+                <h6>Firebase</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    70%
+                  </div>
+                </div>
+                <h6>Bootstrap</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    90%
+                  </div>
+                </div>
+                <h6>Material Ui</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    75%
+                  </div>
+                </div>
+                <h6>MongoDB</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    70%
+                  </div>
+                </div>
+                <h6>Python</h6>
+                <div
+                  class="progress"
+                  style="margin-right: 4rem; margin-bottom: 2rem"
+                >
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Hire Me-->
+      <section id="hireMe">
+        <div class="container hireMeDiv">
+          <div class="row">
+            <div class="col-md-6 hireMeLeft"></div>
+            <div class="col-md-6 hireMeRight">
+              <h5>HIRE ME</h5>
+              <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter Your Name*"
+                  required
+                />
+                <input
+                  type="text"
+                  name="number"
+                  placeholder="Enter Your Number (Optional)"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter Your Email*"
+                  required
+                />
+                <textarea
+                  type="text"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="4"
+                ></textarea>
+
+                <button type="submit" class="btn btn-dark btn-block send">
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--FooterDiv-->
+      <section id="contact">
+        <footer class="container-fluid" data-aos="fade-in">
+          <div class="row">
+            <div class="col-md-6 footer__1 text-center">
+              <h3 class="footer__brand">< BILAL AHMED /></h3>
+              <p>
+                Dadabhoy Town Opp C-7, Shaheed-e-Millat Ext,<br />Karachi,
+                Pakistan
+              </p>
+              <br />
+              <strong>Phone: </strong>+92 33500 375 83 <br />
+              <strong>Email: </strong>bilalahmed6551@gmail.com <br />
+            </div>
+            <!--SubscibeDiv-->
+            <div
+              class="col-md-6 bg-light"
+              style="padding-top: 7rem; padding-bottom: 7rem"
+              data-aos="fade-up"
+            >
+              <div class="newsletter container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h3><strong>Join Newsletter</strong></h3>
+                    <p>
+                      Subscribe now for getting up to date related to my
+                      services and my stack.
+                    </p>
+                    <form
+                      name="subscribe"
+                      method="POST"
+                      data-netlify="true"
+                      data-aos="fade-in"
+                    >
+                      <input
+                        name="subscribe"
+                        type="text"
+                        class="offset-md-3 col-md-6 form-control"
+                        style="
+                          border: none;
+                          border-radius: 4rem;
+                          letter-spacing: 0.2rem;
+                          padding: 2rem;
+                          box-shadow: 0.4rem 0.4rem 10rem #333;
+                          margin: 2rem auto;
+                        "
+                        placeholder="subscribe"
+                        required
+                      />
+                      <button type="submit" class="btn subsBtn">
+                        Subscribe
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+
+    <!--CopyRightDiv-->
+    <div class="copyright bg-light">
+      <div class="links" style="padding-top: 2rem; padding-bottom: 2rem">
+        <a class="nav-link" href="#">Home</a>
+
+        <a class="nav-link" href="#about">About</a>
+
+        <a class="nav-link" href="#services">Services</a>
+
+        <a class="nav-link" href="#skills">Skills</a>
+        <a
+          class="btn btn-outline-light footer__btn"
+          href="#hireMe"
+          id="started"
+        >
+          HIRE ME
+        </a>
+      </div>
+      <div
+        class="copyright__left"
+        style="padding-top: 2rem; padding-bottom: 2rem"
+      >
+        <h6>Copyright &copy; 2021</h6>
+        <a href="mailto:bilalahmed6551@gmail.com" target="blank"
+          ><i class="fa fa-envelope"></i
+        ></a>
+        <a href="https://www.instagram.com/bilal_ahmed_05/" target="blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100007545697355"
+          target="blank"
+          ><i class="fa fa-facebook-square"></i
+        ></a>
+        <a href="https://github.com/Bilal05476" target="blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
+          target="blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://www.pinterest.com/bilalahmed6551/" target="blank">
+          <i class="fa fa-pinterest"></i
+        ></a>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#started").click(function () {
+          $("#quotationModal").modal("show");
+        });
+        $("#started2").click(function () {
+          $("#quotationModal").modal("show");
+        });
+      });
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
