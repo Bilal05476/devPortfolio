@@ -352,6 +352,7 @@ footer {
 }
 .copyright .links {
   display: flex;
+  align-items: center;
 }
 .copyright .links a {
   color: var(--darkBlue--);
