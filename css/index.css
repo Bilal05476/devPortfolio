@@ -520,7 +520,12 @@ textarea {
   .skills__progress {
     padding-left: 2rem;
     padding-bottom: 4rem;
+    padding-top: 4rem;
   }
+  .skills__progress {
+    margin-bottom: 0 !important;
+  }
+
   .footer__1 > h3 {
     padding-top: 1.8rem;
   }
