@@ -601,7 +601,7 @@ textarea {
   transition: 0.5s;
 }
 
-/*Text Animation*/
+/* Text Animation
 .fourDivText strong {
   color: transparent;
   position: relative;
@@ -631,4 +631,4 @@ textarea {
   90% {
     width: 100%;
   }
-}
+} */
