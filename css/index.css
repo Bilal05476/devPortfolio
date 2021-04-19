@@ -23,7 +23,6 @@ body {
   --lightBlue--: rgb(31, 6, 255);
 }
 
-
 /*Navigation*/
 .navbar {
   background-color: #ffff !important;
@@ -600,4 +599,36 @@ textarea {
 #myBtn:hover {
   background-color: var(--lightBlue--);
   transition: 0.5s;
+}
+
+/*Text Animation*/
+.fourDivText strong {
+  color: transparent;
+  position: relative;
+  margin-left: 0.6rem;
+}
+.fourDivText strong::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: var(--darkBlue--);
+  border-right: 0.1rem solid var(--darkBlue--);
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
 }
