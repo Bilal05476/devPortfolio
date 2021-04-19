@@ -74,6 +74,23 @@ body {
   color: var(--darkBlue--);
   box-shadow: 0.1rem 0.1rem 1.2rem var(--darkBlue--);
 }
+.collapsable__btn{
+border: 2px solid var(--darkBlue--);
+  background-color: var(--darkBlue--);
+  border-radius: 4rem;
+  padding: 0.7rem 2rem;
+  margin: .5rem;
+  margin-left: 2rem;
+  outline: none;
+  transition: 0.5s;
+}
+.collapsable__btn:hover{
+background-color: transparent;
+  color: var(--darkBlue--);
+  box-shadow: 0.1rem 0.1rem 1.2rem var(--darkBlue--);
+}
+
+
 #navbarNavDropdown .nav-link {
   color: var(--darkBlue--) !important;
 }
@@ -455,7 +472,7 @@ textarea {
     margin-left: 0 !important;
   }
   .divOne {
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
   .divOneText {
     padding-left: 3rem;
