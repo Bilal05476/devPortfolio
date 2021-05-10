@@ -227,5 +227,8 @@ body {
   .container {
     display: block;
   }
+  .about .box{
+    flex-direction: column;
+  }
   
 }
