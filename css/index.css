@@ -181,7 +181,6 @@ body {
 }
 .twoDiv .project a:hover {
   overflow: hidden;
-  
 }
 .twoDiv .project .proImage {
   width: 100%;
@@ -189,7 +188,7 @@ body {
 }
 .twoDiv .project .proImage:hover {
   transform: scale(1.1);
-  transition: 0.5s cubic-bezier(1, 0, 0, 1); 
+  transition: 0.5s cubic-bezier(1, 0, 0, 1);
 }
 /*Div Three*/
 .threeDiv {
@@ -602,8 +601,8 @@ textarea {
   transition: 0.5s;
 }
 
-.project__details{
-  background: rgba(255,255,255,0.1);
+.project__details {
+  background: rgba(255, 255, 255, 0.1);
   margin-bottom: 2rem;
   width: 100%;
   padding: 1.2rem;
@@ -613,8 +612,74 @@ textarea {
   border-bottom-left-radius: 1.2rem;
   border-bottom-right-radius: 1.2rem;
 }
-.project__details h4{
+.project__details h4 {
   font-weight: 800;
   font-size: 1.2rem;
   text-align: center;
+}
+
+/*testimonals*/
+.swiper-container {
+  width: 300px;
+  height: 300px;
+  top: 20%;
+  backdrop-filter: blur(10px);
+}
+
+#testimonals{
+  background-image: url(../img/bubble-animated-background.svg);
+  padding: 10rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.swiper-container.testimonals {
+  width: 300px;
+  height: 300px;
+  top: 0%;
+  backdrop-filter: blur(10px);
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.2rem;
+  color: var(--white--);
+}
+
+.swiper-slide p {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.swiper-slide .emoji,
+.quotation {
+  font-size: 1.3rem;
+  color: crimson;
+}
+.swiper-slide .quotation {
+  font-size: 4rem;
+}
+.swiper-slide .author {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 1rem auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testiHeading{
+  font-size: 2.8rem;
+  font-family: "Yellowtail", cursive;
 }
