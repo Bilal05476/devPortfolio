@@ -2,7 +2,7 @@
 :root {
   --transition--: 0.5s cubic-bezier(1, 0, 0, 1);
   --mainColor--: rgb(5, 1, 63);
-  --lightBlue--: rgb(31, 6, 255);
+  --lightBlue--: rgb(80, 60, 255);
   --whiteColor--: #ffffff;
   --textColor--: #333;
   --boxShadow--: rgba(0, 0, 0, 0.1);
