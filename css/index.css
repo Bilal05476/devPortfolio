@@ -39,6 +39,7 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .navbar-toggler .line {
   background: var(--darkBlue--);
   width: 25px;
@@ -47,6 +48,19 @@ body {
 }
 .navbar-toggler .line__2 {
   width: 20px !important;
+}
+.navbar-toggler.active .line__2 {
+  opacity: 0;
+}
+.navbar-toggler.active .line__1 {
+  transform: rotate(-405deg) translate(-5px, 6px);
+  width: 2.2rem;
+  transition: 0.5s;
+}
+.navbar-toggler.active .line__3 {
+  transform: rotate(405deg) translate(-5px, -6px);
+  width: 2.2rem;
+  transition: 0.5s;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -480,11 +494,18 @@ textarea {
   .nav-item {
     text-align: center;
   }
+  .nav-link {
+    font-size: 1.7rem;
+  }
+  .nav-link:hover {
+    font-size: 1.8rem;
+    transition: 0.5s;
+  }
   .header__btn {
     margin-left: 0 !important;
   }
   .divOne {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
   .divOneText {
     padding-left: 3rem;

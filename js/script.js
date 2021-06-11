@@ -20,6 +20,8 @@ function scrollFunction() {
   } else {
     document.getElementById("started").style.margin = "1.2rem";
     document.getElementById("logo").style.fontSize = "1.8rem";
+    document.getElementById("navbar").style.boxShadow =
+      "none";
   }
 }
 
@@ -29,4 +31,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+//Menu toggle
+function toggleMenu() {
+  var menuToggle = document.querySelector(".navbar-toggler");
+  menuToggle.classList.toggle("active");
+}
 
