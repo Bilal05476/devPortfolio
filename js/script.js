@@ -34,6 +34,8 @@ function topFunction() {
 //Menu toggle
 function toggleMenu() {
   var menuToggle = document.querySelector(".navbar-toggler");
+  var navigation = document.querySelector(".navbar-nav");
   menuToggle.classList.toggle("active");
+  navigation.classList.toggle("active")
 }
 
