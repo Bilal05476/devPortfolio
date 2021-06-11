@@ -130,7 +130,7 @@ body {
   margin-top: 1.2rem;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 0.4rem;
   outline: none;
   transition: 0.5s;
   color: #fff !important;
@@ -142,12 +142,10 @@ body {
 }
 .divOneImg,
 .homeImage {
-  width: 100%;
+  width: 90%;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.divOneImg {
-  width: 70% !important;
+  /* margin-right: 1.2rem; */
 }
 
 /*Div Two*/
@@ -225,6 +223,9 @@ body {
 /* Div Set*/
 .servicesDiv {
   padding-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .work__profile {
   align-self: center;
@@ -485,6 +486,10 @@ textarea {
   }
 }
 @media (max-width: 767px) {
+  .caption,
+  .business {
+    font-size: 1.9rem;
+  }
   .navbar-brand {
     display: none;
   }
@@ -494,10 +499,10 @@ textarea {
   .nav-item {
     text-align: center;
   }
-  .nav-link {
+  .navbar-toggler.active .nav-link {
     font-size: 1.7rem;
   }
-  .nav-link:hover {
+  .navbar-toggler.active .nav-link:hover {
     font-size: 1.8rem;
     transition: 0.5s;
   }
@@ -505,7 +510,7 @@ textarea {
     margin-left: 0 !important;
   }
   .divOne {
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
   .divOneText {
     padding-left: 3rem;
@@ -575,7 +580,9 @@ textarea {
   .skills__progress {
     margin-bottom: 0 !important;
   }
-
+  .subsDiv {
+    margin-top: 2rem;
+  }
   .footer__1 > h3 {
     padding-top: 1.8rem;
   }
