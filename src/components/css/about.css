@@ -1,0 +1,110 @@
+.about {
+  background-color: #424242;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-top: 1px solid #565656;
+  padding-top: 130px;
+}
+.about .header h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+.about .header small {
+  font-style: italic;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.about-content-left,
+.about-content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: right;
+  margin-bottom: 6rem;
+}
+.about-text h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.about-text .hr {
+  background-color: var(--themeColor--);
+}
+.about-text p {
+  font-weight: 300;
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+.about-content-left .about-text {
+  margin-right: 2rem;
+}
+.about-content-left img,
+.about-content-right img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--themeColor--);
+  box-shadow: 0.1rem 0.4rem 0.3rem #323232;
+  margin-bottom: 1rem;
+}
+
+.about-content-right,
+.about-content-last {
+  text-align: left;
+  /* margin-left: 39.9rem; */
+}
+.about-content-right .about-text {
+  margin-left: 2rem;
+}
+.about-content-last .about-text {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #323232;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 0.5rem 0.3rem 0.5rem #626262;
+  text-align: center;
+  box-shadow: 0.1rem 0.4rem 0.3rem #323232;
+  padding: 40px;
+  background-color: var(--themeColor--);
+  border: 4px solid #323232;
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 20px;
+    padding-top: 130px;
+  }
+  .about-content-left,
+  .about-content-right {
+    flex-direction: column;
+    border-bottom: 1px solid #565656;
+  }
+  .about-content-left .about-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .about-content-right .about-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-content-left img,
+  .about-content-right img,
+  .about-content-right .about-text,
+  .about-content-last .about-text {
+    margin-bottom: 2.5rem;
+  }
+}

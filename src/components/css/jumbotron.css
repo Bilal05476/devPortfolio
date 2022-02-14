@@ -1,0 +1,83 @@
+/* Jumbotron */
+.my-jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 180px;
+  color: #fff;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 2, 1, 0.87),
+      rgba(11, 19, 7, 0.856)
+    ),
+    url("../img/bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.my-jumbotron .welcome {
+  font-style: italic;
+  font-weight: 300;
+  text-shadow: 0.02rem 0.02rem 0.3rem var(--themeColor--);
+}
+.my-jumbotron .slogan {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  text-shadow: 0.02rem 0.02rem 0.3rem var(--themeColor--);
+}
+.my-jumbotron .description {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0.02rem 0.02rem 0.2rem var(--themeColor--);
+}
+.my-jumbotron .description span {
+  font-weight: 600;
+  text-shadow: 0.02rem 0.02rem 0.2rem #212121;
+
+  color: var(--themeColor--);
+}
+.jumbo-button,
+.contact-set .contact-button button {
+  padding: 1rem 2rem;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: var(--themeColor--);
+  font-weight: 700;
+  font-size: 1rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none !important;
+  cursor: pointer;
+  border: 2px solid var(--themeColor--);
+}
+
+.jumbo-button:hover,
+.contact-set .contact-button button:hover {
+  transform: translateY(2px);
+  border-top-left-radius: 0px;
+  background-color: var(--themeColor--);
+  color: #142511;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .my-jumbotron {
+    padding: 170px 20px;
+  }
+  .my-jumbotron .slogan {
+    font-size: 1.5rem;
+  }
+  .jumbo-button,
+  .contact-set .contact-button button {
+    font-size: 0.8rem;
+  }
+}

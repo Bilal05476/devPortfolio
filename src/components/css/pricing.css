@@ -1,0 +1,73 @@
+.package {
+  background-color: #191919;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-top: 1px solid #565656;
+  padding-top: 130px;
+}
+.package .header h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+.package .header small {
+  font-style: italic;
+}
+.package-section {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+.package-section .package-content {
+  margin: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 2rem 3rem;
+  background-color: #292929;
+  width: 33.33%;
+  border-radius: 5px;
+  box-shadow: 0.1rem 0.3rem 0.2rem #202020;
+}
+
+.package-section .package-content .package-icon {
+  font-size: 2rem;
+  background-color: var(--themeColor--);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  color: #292929;
+}
+.package-section .package-content .package-name {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.package-section .package-pricing {
+  margin-bottom: 1rem;
+}
+.package-section .package-pricing .price {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.package-item .far {
+  color: var(--themeColor--);
+}
+
+@media (max-width: 992px) {
+  .package-section {
+    flex-direction: column;
+  }
+  .package-section .package-content {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .package {
+    padding: 20px;
+    padding-top: 130px;
+  }
+}

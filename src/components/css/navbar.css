@@ -1,0 +1,58 @@
+.navbar {
+  padding: 30px 150px;
+}
+
+.navbar.scrollNavbar {
+  backdrop-filter: blur(10px);
+  padding: 20px !important;
+}
+
+.navbar.blurryBack {
+  padding: 20px !important;
+  background-color: #212121;
+}
+
+.navbar .logo .logo-link {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+}
+.navbar .my-menu-bar .my-menu {
+  color: #fff;
+  margin: auto 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.navbar .my-menu-bar .my-menu:hover {
+  color: var(--themeColor--);
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+.navbar-toggler-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  /* color: linear-gradient(to top, var(--themeColor--) 0%, #424242 100%); */
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 30px !important;
+  }
+  .navbar .my-menu-bar {
+    background: linear-gradient(to top, var(--themeColor--) 0%, #282828 0%);
+  }
+  .navbar .my-menu-bar .my-menu {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+}
